@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Converter</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="coin-converter-container">
+        <h1>Coin Converter</h1> 
+        <p>Convert your dollar bills to coins.</p>
+        <div class="coin-converter">
+            <div class="input-container">
+                <input type="text" id="amount" 
+                        class="type-amount" 
+                        placeholder="$ Enter dollar amount ..." 
+                        value="1">
+            </div>
+            <div class="coins">
+                <div class="quater-container">
+                    <input type="text" id="quaters" 
+                            class="quaters" placeholder="0" 
+                            readonly>
+                    <h3>Quaters</h3>
+                </div>
+                <div class="dime-container"> 
+                    <input type="text" id="dimes" 
+                            class="dimes"  placeholder="0" 
+                            readonly>
+                    <h3>Dimes</h3>
+                </div>
+                <div class="nickel-container"> 
+                    <input type="text" id="nickels" 
+                            class="nickels" placeholder="0" r
+                            eadonly>
+                    <h3>Nickels</h3>
+                </div>
+                <div class="penny-container"> 
+                    <input type="text" id="pennies" 
+                            class="pennies" placeholder="0"
+                            readonly>
+                    <h3>Pennies</h3>
+                </div>
+            </div>
+            <button class="btn-calculate" id="btncalucate">Calculate Change</button>
+        </div>
+    
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
